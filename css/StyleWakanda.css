@@ -1,0 +1,50 @@
+#Hero{
+  background-image: url(../assets/ImagesWakanda/Pantherwakanda1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 400px 200px;
+}
+#Heroheader{
+    width: 700px;
+}
+#Heroheader h2{
+    font-size: 65px;
+}
+#Heroheader h3{
+letter-spacing: 3px;
+margin-top: -40px;
+}
+#section_interlude{
+    background-image: url(../assets/ImagesWakanda/Pantherwakanda2.png);
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-position-y: -60px;
+}
+#interlude{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 150px;
+    }
+#interlude2{
+    width: auto;
+    margin-left: 100px;
+}
+#interlude1{
+    width: auto;
+    margin-right: 100px;
+}
+#lienbloc{
+padding: 100px 70px;
+background-color: #3D2DA6;
+color: white;
+}
+#lienbloc a{
+    color: white;
+}
+#imgfm{
+    margin: 30px 0;
+}

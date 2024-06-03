@@ -1,0 +1,170 @@
+
+/* Définition des styles peronnalisées */
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../fonts/PantheraRegular/PantheraRegular.woff2) format('woff2');
+    font-weight: 'normal';
+    font-style: 'normal';
+  }
+@font-face {
+    font-family: 'WakandaForever';
+    src: url(../fonts/WakandaForever/WakandaForever.woff2) format('woff2');
+    font-weight: 'normal';
+    font-style: 'normal';
+  } 
+@font-face {
+    font-family: 'CantarellRegular';
+    src: url(../fonts/CantarellRegular/CantarellRegular.woff2) format('woff2');
+    font-weight: 'normal';
+    font-style: 'normal';
+  }
+ 
+
+@font-face {
+    font-family: 'Beyno';
+    src: url(../fonts/Beyno/Beyno.woff2) format('woff2');
+    font-weight: 'normal';
+    font-style: 'normal';
+  } 
+
+
+
+/* Définition des variables couleurs */
+
+:root{
+    --white-color:#FFFFFF;
+    --roseOrchi-color:#DF99F2;
+    --roseGris-color:#9E91B7;
+    --RoseLav-color:#F2CEF2;
+    --bleuMinuit-color:#021740;
+    --bleuMarine-color:#07338C;
+    --bleuNuit:#3D2DA6;
+}
+
+/* Définition de la Typographie */
+
+h1{
+    font-family: 'Panthera';
+    font-size: 68px;
+    color:var(--RoseLav-color);
+}
+h2{
+    font-family: 'Beyno';
+    font-size: 32px;
+    color:var(--RoseLav-color);
+}
+h3{
+    font-family: 'WakandaForever';
+    font-size: 40px;
+    color:var(--RoseLav-color);
+}
+p{
+    font-family: 'CantarellRegular';
+    font-size: 16px;
+}
+body{  
+    background-image: url('../assets/ImagesAllpages/arrière_plan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    color:var(--white-color)
+    /* 
+        background: radial-gradient(126.67% 350.28% at -21.35% 0%, 
+        #11213F 0%, 
+        #0B0B0B 39.1%, 
+        rgba(2, 23, 64, 0.837641) 94.57%, 
+        rgba(2, 23, 64, 0) 100%);
+    */
+}
+/* Mise en forme du header (Entete de page) */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    }
+nav ul{
+        display: flex;
+        list-style: none;
+    }
+li{
+        margin-left: 70px;
+    }
+ul a{
+        color:var(--white-color);
+        font-size: 16px;
+        font-weight: 60px;
+        font-family: 'Beyno';
+        text-decoration: none;
+    }
+ul a:hover{
+        color:var(--roseOrchi-color);
+        text-decoration: underline;
+    }
+ul a:focus {
+    color:var(--roseOrchi-color);
+    text-decoration: underline;
+   }
+/* Mise en forme du footer (pied de page) */
+
+footer{
+    background-image: url('../assets/ImagesAllpages/back_footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 200px;
+    /*background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);*/
+}
+footer P{
+    font-family: 'CantarellRegular';
+    font-size: 10px;
+}
+footer h2{
+    font-family: 'CantarellRegular';
+    color: var(--white-color);
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding: 4px 0;
+    font-family: 'CantarellRegular';
+}
+footer ul a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+footer #align-nav-RS{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin-top: 80px;
+
+} 
+footer #spacingRS{
+    letter-spacing: 25px;
+}
+.citation{
+    font-family: 'CantarellRegular';
+    margin-left: 110px;
+    margin-top: 140px;
+    font-size: 14px;
+}
+footer #footer1_position{
+    background-image: url('../assets/ImagesAllpages/footer1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 150px; 
+    padding: 180px 150px;
+    margin-left: 200px;
+}

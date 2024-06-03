@@ -1,0 +1,81 @@
+#Enigme_heroheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Block_releve{
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+#fond_para{
+    background-image: url(../assets/ImagesEnigme/Pantherenigme2.png);
+    background-size: 850px ;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin-left: -80px;
+}
+#Block_releve p{
+    width: 600px;
+    padding: 150px 150px;
+    margin-left: 70px;
+
+}
+#Block_releve h2 {
+font-size: 70px;
+}
+#releve_defi {
+    letter-spacing: 5px;
+    margin-bottom: -50px;
+}
+#alphabet_desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.taille_div{
+    width: 50%;
+}
+#deuxieme_section{
+    margin: 0px 200px;
+}
+#alphabet_desc button{
+    display: flex;
+    width: 200px;
+    padding: 20px 60px;
+    margin: 80px 150px;
+    border: 0.2px solid #000;
+    border-radius: 50px;
+    font-size: 15px;
+    letter-spacing: 2px; 
+    background-color: var(--RoseLav-color);
+}
+
+#alphabet_desc input{
+    width: 500px;
+    padding: 20px;
+    padding-left: 30px;
+    margin: 20px 0;
+    border: 1px solid var(--RoseLav-color);
+    border-radius: 50px;
+    font-size: 16px;
+    color: var(--RoseLav-color);
+    background-color: transparent;
+    display: flex;
+}
+#alphabet_desc form{
+    margin-top: 200px;
+}
+#lesais_tu{
+    background-image: url(../assets/ImagesEnigme/Pantherenigme2.png);
+    background-size: 700px ;
+    background-repeat: no-repeat;
+    background-position: center; 
+    text-align: center;
+    padding: 250px 0px;
+    margin-top: -150px;
+}
+#lesais_tu P{
+    padding: 0px 170px;
+}

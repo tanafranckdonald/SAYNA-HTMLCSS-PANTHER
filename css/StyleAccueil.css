@@ -1,0 +1,169 @@
+
+:root{
+    --white-color:#FFFFFF;
+    --roseOrchi-color:#DF99F2;
+    --roseGris-color:#9E91B7;
+    --RoseLav-color:#F2CEF2;
+    --bleuMinuit-color:#021740;
+    --bleuMarine-color:#07338C;
+    --bleuNuit:#3D2DA6;
+}
+
+/* Mise en forme de la premiere section du main Entete (Heroheader) */
+
+#Heroheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+
+/* Mise en forme de la deuxieme section  Personnage Antagoniste et Secondaire */
+
+#sectionpersonnage{
+    background-color: var(--bleuMinuit-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 342px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    padding-left: 40px;
+}
+
+#alignsuite{
+    display: flex;
+    position: relative;
+    top: 10px;
+    right: 60px;
+    margin: -30px;
+}
+#iconsuite{
+    filter: invert(1) sepia(2) saturate(10) hue-rotate(220deg);
+}
+
+/* Mise en forme du scroll avec aligement des icons de reseaux sociaux */
+
+.scroll {
+    display: flex;
+    position: fixed;
+    margin-left: 40px;
+    margin-top: -60px;
+}
+.vertical-line1{
+    width: 2px;
+    height: 550px;
+    background-color: var(--RoseLav-color);
+
+}
+.vertical-line2{
+    width: 2px;
+    height: 350px;
+    background-color: var(--RoseLav-color);
+    margin: 0 20px;
+}
+.scroll ul{
+    list-style: none;
+    margin-left: -100px;
+}
+.scroll li{
+    padding-bottom: 32px;
+}
+
+/* Mise en forme de la troisieme section Biographie de T'Challa */
+
+#Biographie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+#tchallacad{
+    padding: 0 80px;
+}
+
+#fonfcad{
+    background-color: var(--white-color);
+    color: black;
+    height: 600px;
+    border-radius: 10px;
+    padding: 0 60px;
+    padding-top: 250px;
+}
+#fonfcad span{
+    font-weight: bold;
+}
+#fonfcad button {
+    background-color: var(--bleuNuit);
+    border: 0px;
+    margin-right: 15px;
+    padding: 10px 20px;
+    color: var(--white-color);
+    border-radius: 5px;
+}
+#fonfcad h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+
+}
+#imgtchalla{
+    text-align: center;
+    margin-bottom: -300px;
+
+}
+/* Mise en forme de la quatrieme section Formulaire contactez-nous */
+#Formulaire{
+    background-image: url(../assets/ImagesAccueil/Pantherhome7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+}
+#Formulaire form{
+    border: 1px solid #000;
+    border-radius: 200px;
+    height: auto;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+    margin: 80px 0;
+    padding: 40px 200px;
+    color: #000;
+    text-align: center;
+}
+
+#Formulaire input{
+    width: 500px;
+    padding: 20px;
+    padding-left: 30px;
+    margin: 20px 0;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: transparent;
+    display: flex;
+}
+#Formulaire h3{
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: -10px;
+}
+#Formulaire p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+#Formulaire button{
+    width: 200px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 0.2px solid #000;
+    border-radius: 50px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: var(--RoseLav-color);
+}
+
+#Formulaire #Message{
+    padding-bottom: 200px;
+}
